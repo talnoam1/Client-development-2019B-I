@@ -15,5 +15,9 @@
 * ul (`<ul> </ul>`)
 * ol (`<ol> </ol>`)
 * li (`<li> </li>`)
+* table (`<table border="" > </table>`)
+* tr (`<tr> </tr>`)
+* td (`<td> </td>`)
+* th (`<th> </th>`)
 
 
