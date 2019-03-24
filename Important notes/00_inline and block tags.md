@@ -13,4 +13,6 @@ Inline tags - a tag that takes only the space that the content requires
 * a
 * img
 * td
+* button
+* input
 

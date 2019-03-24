@@ -2,6 +2,7 @@
 * br (`<br/>`)
 * hr (`<hr/>`)
 * img (`<img src="" />`)
+* input (`<input/>`)
 
 
 
@@ -19,5 +20,6 @@
 * tr (`<tr> </tr>`)
 * td (`<td> </td>`)
 * th (`<th> </th>`)
+* button (`<button> </button>`)
 
 
