@@ -21,5 +21,7 @@
 * td (`<td> </td>`)
 * th (`<th> </th>`)
 * button (`<button> </button>`)
+* select (`<select> </select>`)
+* option (`<option> </option>`)
 
 

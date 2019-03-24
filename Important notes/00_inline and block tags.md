@@ -15,4 +15,5 @@ Inline tags - a tag that takes only the space that the content requires
 * td
 * button
 * input
+* select
 

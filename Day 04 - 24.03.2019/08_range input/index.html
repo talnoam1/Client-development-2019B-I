@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    
+
+    <form action="https://www.wunderground.com/wundermap">
+
+        <p>latitude</p>
+        <label>-90</label>
+        <input type="range" name="lat" min="-90" max="90">
+        <label>90</label>
+
+
+        <p>longitude</p>
+        <label>-180</label>
+        <input type="range" name="lon" min="-180" max="180">
+        <label>180</label>
+
+
+        <p>the zoom of the map</p>
+        <label>1</label>
+        <input type="range" name="zoom" min="1" max="5">
+        <label>5</label>
+
+        <br/>
+        <br/>
+        <input type="submit" value="go to map"/>
+    </form>
+</body>
+</html>
