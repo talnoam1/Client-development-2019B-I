@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+        div {
+            /* CONTENT */
+            color: blue;
+            width: 200px;
+            height: 300px;
+            /* PADDING */
+            padding: 15px;
+            /* BORDER */
+            border-width: 5px;
+            border-style: dashed;
+            border-color: red;
+            /* MARGIN */
+            margin: 20px;
+        }
+
+
+        #a1 {
+            float: left;
+        }
+
+
+        #a2 {
+            z-index:3;
+            background-color: yellow;
+            position: fixed;
+            right: 0px;
+            bottom: 70px;
+        }
+
+
+        #a3 {
+            z-index:2;
+            background-color: green;
+            position: fixed;
+            right: 100px;
+            bottom: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div id="a1">first</div>
+    <div id="a2">second</div>
+    <div id="a3">third</div>
+</body>
+</html>

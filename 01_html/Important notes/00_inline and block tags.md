@@ -6,7 +6,7 @@ Block tags - a tag that takes the whole line in the page
 * hr
 * table
 * tr
-
+* div
 
 # Inline tags
 Inline tags - a tag that takes only the space that the content requires
@@ -16,4 +16,5 @@ Inline tags - a tag that takes only the space that the content requires
 * button
 * input
 * select
+* label
 
