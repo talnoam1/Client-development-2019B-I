@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<style>
+    td{
+        height: 100px;
+        width: 100px;
+    }
+
+
+    tr:nth-child(odd) > td:nth-child(odd){
+        background-color: yellow;
+    }
+    tr:nth-child(odd) > td:nth-child(even){
+        background-color: green;
+    }
+    tr:nth-child(even) > td:nth-child(odd){
+        background-color: green;
+    }
+    tr:nth-child(even) > td:nth-child(even){
+        background-color: yellow;
+    }
+</style>
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+
+</html>

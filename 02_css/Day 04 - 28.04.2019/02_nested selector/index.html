@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+        /*SELECTS ONLY THE P THAT IS RIGHT AFTER THE DIV*/
+        div + p {
+            background-color: yellow;
+        }
+
+
+        /*SELECTS ONLY THE P THAT ARE INSIDE THE DIV*/
+        div > p {
+            background-color: lightblue;
+        }
+
+
+        /*SELECTS ONLY THE FIRST-CHILD IN ELEMENT THAT IS ALSO  P */
+        p:nth-child(1) {
+            color: red;
+        }
+
+
+        p:nth-child(2) {
+            color: green;
+        }
+        
+        p:nth-child(3) {
+            color: purple;
+        }
+
+
+
+        /* "*" selects all the elements in the document */
+        * {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <p>before div</p>
+
+    <div>
+        <p>line 1</p>
+        <p>line 2</p>
+        <p>line 3</p>
+    </div>
+
+    <p>after div</p>
+
+</body>
+</html>
